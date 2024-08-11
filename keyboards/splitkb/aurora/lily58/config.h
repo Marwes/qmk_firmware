@@ -18,5 +18,15 @@
 
 // Not yet available in `info.json`
 #ifdef OLED_ENABLE
-#   define OLED_FONT_H "keyboards/splitkb/aurora/lily58/glcdfont.c"
+#    define OLED_FONT_H "keyboards/splitkb/aurora/lily58/glcdfont.c"
 #endif
+
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#define RGBLIGHT_EFFECT_BREATHING
+
+#define RGBLIGHT_MODE_BREATHING 0
+#define RGBLIGHT_MODE_RAINBOW_MOOD 0
+#define RGBLIGHT_MODE_RAINBOW_SWIRL 0
+
+#define RGBLIGHT_SLEEP
